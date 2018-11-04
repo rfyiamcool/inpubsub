@@ -2,6 +2,20 @@
 
 provide pubsub service for groutines in one golang process
 
+## Feature
+
+To Do List:
+
+* add redis support, pubsub distributed
+
+In cluster, don't need all workers to subscribe to redis topic. reduce the number of connections
+
+* add nsq suport
+
+support nsq pubsub
+
+![golang_pubsub](pubsub.jpg)
+
 ## Usage
 
 ```
